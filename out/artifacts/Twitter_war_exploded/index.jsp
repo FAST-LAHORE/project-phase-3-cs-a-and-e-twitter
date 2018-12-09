@@ -13,7 +13,7 @@
 
     <title>
 
-        Login &middot; Application theme &middot; Official Bootstrap Themes
+        Login &middot; Twitter
 
     </title>
 
@@ -37,12 +37,12 @@
 <body>
 <div class="do axz">
     <div class="ayb">
-        <form role="form" class="ahr avz j" method="post" action="/login">
+        <form role="form" class="ahr avz j" method="post" action="/Twitter_war_exploded/login">
 
             <a href="/" class="l afv">
                 <img src="./assets/img/Twitter.png" alt="Twitter">
             </a>
-
+            <h1>Login to Twitter</h1>
             <div class="mu">
                 <input class="form-control" name="username" placeholder="Username">
             </div>
@@ -53,11 +53,11 @@
 
             <div class="afv">
                 <button class="cg nq" type="submit">Log In</button>
-                <button class="cg ns">Sign up</button>
+
             </div>
 
             <footer class="bqx">
-                <a href="#" class="axc">Forgot password</a>
+                <a href="register" class="axc">Register</a>
             </footer>
         </form>
     </div>

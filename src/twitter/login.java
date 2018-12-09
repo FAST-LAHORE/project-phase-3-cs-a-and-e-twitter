@@ -1,5 +1,5 @@
 package twitter;
-
+import appLayer.User;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -23,6 +23,6 @@ public class login extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         getParams(request, response);
-        request.getRequestDispatcher("/login.jsp").forward(request,response);
+        request.getRequestDispatcher("/index.jsp").forward(request,response);
     }
 }

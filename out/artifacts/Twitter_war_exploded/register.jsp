@@ -37,27 +37,31 @@
 <body>
 <div class="do axz">
     <div class="ayb">
-        <form role="form" class="ahr avz j">
+        <form role="form" class="ahr avz j" method="post" action="register">
 
-            <a href="../index.html" class="l afv">
-                <img src="./assets/img/brand.png" alt="brand">
+            <a href="/" class="l afv">
+                <img src="./assets/img/Twitter.png" alt="Twitter">
             </a>
-
+            <h1>Register To Twitter</h1>
+            <div class="mu afh">
+                <input type="text" class="form-control" name="Name" placeholder="Name">
+            </div>
             <div class="mu">
-                <input class="form-control" placeholder="Username">
+                <input class="form-control" name="username" placeholder="Username">
             </div>
 
             <div class="mu afh">
-                <input type="password" class="form-control" placeholder="Password">
+                <input type="password" class="form-control" name="password" placeholder="Password">
             </div>
 
+
             <div class="afv">
-                <button class="cg nq">Log In</button>
+
                 <button class="cg ns">Sign up</button>
             </div>
 
             <footer class="bqx">
-                <a href="#" class="axc">Forgot password</a>
+                <a href="login" class="axc">login</a>
             </footer>
         </form>
     </div>
