@@ -7,21 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9a86b03-667b-49d7-8161-3ecbaa8fd7d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/WEB-INF/classes/appLayer/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/WEB-INF/classes/appLayer/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/WEB-INF/classes/twitter/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/WEB-INF/classes/twitter/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/WEB-INF/classes/twitter/tweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/WEB-INF/classes/twitter/tweet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/tweet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Twitter_war_exploded/tweet.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/appLayer/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/appLayer/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/twitter/login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/twitter/login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Twitter/twitter/tweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Twitter/twitter/tweet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appLayer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/appLayer/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twitter/follow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitter/follow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twitter/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitter/login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/twitter/tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twitter/tweet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/tweet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/tweet.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/profile.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,6 +75,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/profile.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/twitter/login.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -129,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/twitter/tweet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="49" column="11" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="49" selection-end-column="11" />
+            <state relative-caret-position="239">
+              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -152,15 +148,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/twitter/search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -207,7 +194,6 @@
         <option value="$PROJECT_DIR$/web/search.jsp" />
         <option value="$PROJECT_DIR$/web/settings.jsp" />
         <option value="$PROJECT_DIR$/web/trends.jsp" />
-        <option value="$PROJECT_DIR$/web/profile.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/appLayer/DbConnection.java" />
         <option value="$PROJECT_DIR$/src/twitter/register.java" />
@@ -217,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/twitter/follow.java" />
         <option value="$PROJECT_DIR$/src/appLayer/User.java" />
         <option value="$PROJECT_DIR$/web/tweet.jsp" />
+        <option value="$PROJECT_DIR$/web/profile.jsp" />
         <option value="$PROJECT_DIR$/src/twitter/tweet.java" />
       </list>
     </option>
@@ -286,7 +273,7 @@
     <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544347352813" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544347394444" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql-connector-java-8.0.13.jar!/" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -452,12 +439,12 @@
       <workItem from="1544440496035" duration="876000" />
       <workItem from="1544442444655" duration="11374000" />
       <workItem from="1544328777659" duration="942000" />
-      <workItem from="1544330138023" duration="16424000" />
+      <workItem from="1544330138023" duration="16505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29616000" />
+    <option name="totallyTimeSpent" value="29697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
@@ -480,7 +467,7 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Application Servers" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.15206611" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.15206611" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289256" />
@@ -641,13 +628,6 @@
         <state relative-caret-position="-1935" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/profile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/apache-tomcat-8.5.35/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3118">
@@ -756,10 +736,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/twitter/tweet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="49" column="11" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="49" selection-end-column="11" />
+        <state relative-caret-position="239">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
         </state>
       </provider>
     </entry>
