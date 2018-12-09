@@ -8,7 +8,7 @@ public class DbConnection {
         Connection connection=null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/twitter","root","Shahzada007@");
+            connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/twitterDb","root","Shahzada007@");
 
         }
         catch (Exception e) {

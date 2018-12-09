@@ -43,15 +43,16 @@
                 <img src="./assets/img/Twitter.png" alt="Twitter">
             </a>
             <h1>Register To Twitter</h1>
+            <p>${msg}</p>
             <div class="mu afh">
-                <input type="text" class="form-control" name="Name" placeholder="Name">
+                <input type="text" required class="form-control" name="Name" placeholder="Name">
             </div>
             <div class="mu">
-                <input class="form-control" name="username" placeholder="Username">
+                <input class="form-control" required name="username" placeholder="Username">
             </div>
 
             <div class="mu afh">
-                <input type="password" class="form-control" name="password" placeholder="Password">
+                <input type="password" required class="form-control" name="password" placeholder="Password">
             </div>
 
 

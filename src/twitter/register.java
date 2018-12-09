@@ -13,7 +13,15 @@ import java.io.IOException;
 public class register extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         User user=new User();
-        user.createUser(request.getParameter("Name"),request.getParameter("username"),request.getParameter("password"));
+        boolean success=user.createUser(request.getParameter("Name"),request.getParameter("username"),request.getParameter("password"));
+        if(success){
+            request.setAttribute("msg","User Registration successful. Login to your account");
+
+        }
+        else {
+            request.setAttribute("msg","error in User Registration");
+        }
+        request.getRequestDispatcher("/register.jsp").forward(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
