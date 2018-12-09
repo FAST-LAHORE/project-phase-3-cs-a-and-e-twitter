@@ -425,33 +425,33 @@
 
                 <li class="rv b agz">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Message">
+                        <form method="post" action="tweet">
+                        <input type="text" name="tweet" class="form-control" placeholder="Tweet">
                         <div class="bpt">
-                            <button type="button" class="cg ns yf">
-                                <span class="h bao"></span>
+                            <button type="submit" style="width: 500px" class="cg ns yf">
+                                Post
                             </button>
                         </div>
+                        </form>
                     </div>
                 </li>
-                <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-                <c:forEach items="${tweets}" var="tweet">
-                    <li class="rv b agz">
-                        <img
-                                class="bos vb yb aff"
-                                src="assets/img/avatar-dhg.png">
-                        <div class="rw">
-                            <div class="bpb">
-                                <small class="acx axc">4 min</small>
-                                <h6>${tweet.username}</h6>
-                            </div>
 
-                            <p>
-                                ${tweet.tweet}                            </p>
-
+                <li class="rv b agz">
+                    <img
+                            class="bos vb yb aff"
+                            src="assets/img/avatar-dhg.png">
+                    <div class="rw">
+                        <div class="bpb">
+                            <small class="acx axc">4 min</small>
+                            <h6>${username}</h6>
                         </div>
-                    </li>
-                </c:forEach>
 
+                        <p>
+                            Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+
+                         </div>
+                </li>
 
 
             </ul>

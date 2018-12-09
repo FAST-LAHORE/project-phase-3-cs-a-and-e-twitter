@@ -71,4 +71,20 @@ public class User {
         }
         return null;
     }
+    public boolean createTweet(String username, String tweet) {
+
+        try {
+            connection=dbConnection.getConnection();
+            if (connection!=null){
+                statement=connection.createStatement();
+                String sql="INSERT INTO `twitterDb`.`tweets` (`username`, `tweet`) VALUES ('"+username+"', '"+tweet+"')";
+                statement.executeUpdate(sql);
+                return  true;
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return false;
+    }
 }
