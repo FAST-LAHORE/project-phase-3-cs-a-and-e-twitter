@@ -43,6 +43,8 @@
                 <img src="./assets/img/Twitter.png" alt="Twitter">
             </a>
             <h1>Login to Twitter</h1>
+            <p style="color: red">${msg}</p>
+
             <div class="mu">
                 <input class="form-control" name="username" placeholder="Username">
             </div>

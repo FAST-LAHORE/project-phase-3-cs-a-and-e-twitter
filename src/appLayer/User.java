@@ -1,5 +1,6 @@
 package appLayer;
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class User {
@@ -21,5 +22,53 @@ public class User {
             e.printStackTrace();
         }
         return false;
+    }
+    public ResultSet loginUser(String username, String password) {
+            ResultSet resultSet=null;
+        try {
+            connection=dbConnection.getConnection();
+            if (connection!=null){
+                statement=connection.createStatement();
+                String sql="SELECT * FROM twitterDb.User where User.username='"+username+"' and password='"+password+"'";
+                resultSet=statement.executeQuery(sql);
+                return  resultSet;
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+    public ResultSet getTweets(String username) {
+        ResultSet resultSet=null;
+        try {
+            connection=dbConnection.getConnection();
+            if (connection!=null){
+                statement=connection.createStatement();
+                String sql="SELECT * FROM twitterDb.tweets where User.username='"+username+"'";
+                resultSet=statement.executeQuery(sql);
+                return  resultSet;
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
+    }
+    public ResultSet getFollowers(String username) {
+        ResultSet resultSet=null;
+        try {
+            connection=dbConnection.getConnection();
+            if (connection!=null){
+                statement=connection.createStatement();
+                String sql="SELECT * FROM twitterDb.follow where User.username='"+username+"'";
+                resultSet=statement.executeQuery(sql);
+                return  resultSet;
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
     }
 }

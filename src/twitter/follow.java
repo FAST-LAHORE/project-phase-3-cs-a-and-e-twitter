@@ -10,7 +10,7 @@ import java.io.IOException;
 @WebServlet(name = "follow")
 public class follow extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        //INSERT INTO `twitterDb`.`follow` (`username`, `follower`) VALUES ('asif', 'ak');
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
