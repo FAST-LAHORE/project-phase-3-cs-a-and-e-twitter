@@ -13,7 +13,7 @@
 
     <title>
 
-        Login &middot; Application theme &middot; Official Bootstrap Themes
+        Login &middot; Twitter
 
     </title>
 
